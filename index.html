@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Wakka example</title>
+  
+	<style>
+    
+		body {
+			background-image: url("https://en.wikipedia.org/static/images/project-logos/enwiki.png");
+			background-repeat: no-repeat;
+			background-color: #f4f4fe;
+		}
+
+		header {
+			display: flex;
+			justify-content: space-between;
+			height: 50px;
+			align-items:flex-end;
+			margin-top: 20px;
+			margin-left: 120px;
+
+		}
+
+		header>ul {
+			list-style: none;
+			display: flex;
+			justify-content: space-between;
+			gap: 15px;
+		}
+
+		ul {
+			list-style: none;
+			margin: 0;
+		}
+
+		a {
+			text-decoration: none;
+		}
+
+		article {
+			background: white;
+			float: left;
+			margin-left: 140px;
+			padding: 15px;
+			border-style: solid;
+			border-color: #f2f2ff;
+			border-radius: 2px;
+			padding-left: 20px;
+		}
+
+		#side-section {
+			float: right;
+			margin-top: 130px;
+			text-align: center;
+		}
+
+		#anthem-div {
+			height: 20px;
+			background: #a5a5a5;
+
+		}
+
+		#main-content {
+			margin: 0;
+		}
+
+		section>table>td {
+			text-align: center;
+		}
+
+
+		#side-nav-bar {
+			position: absolute;
+			height: 1000px;
+			margin-top: 120px;
+			margin-left: 0;
+		}
+
+		nav {
+			font-size: 0.82em;
+			padding: 0;
+			line-height: 1.4;
+		}
+
+		.vl {
+			width: 100%;
+			height: 2px;
+			background: #999999;
+		}
+
+		section {
+			background: #eeeeee;
+			padding: 10px;
+			border-style: solid;
+			border-radius: 0.2px;
+			border-color: #ababab;
+			font-size: 0.82em;
+		}
+
+		#nav-section {}
+
+		.content-box {
+			display: grid;
+			grid-template-columns: auto auto;
+			gap: 20px;
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		
+		<ul id="header-left-bar">
+			<a href="https://en.wikipedia.org/wiki/Greece" target="_blank">
+				<li>Article</li>
+			</a>
+			<a href="https://en.wikipedia.org/wiki/Talk:Greece" target="_blank">
+				<li>Talk</li>
+			</a>
+		</ul>
+		<ul id="header-right-bar">
+			<a href="https://en.wikipedia.org/wiki/Greece" target="_blank">
+				<li>Read</li>
+			</a>
+			<a href="https://en.wikipedia.org/wiki/Talk:Greece" target="_blank">
+				<li>View source</li>
+			</a>
+			<a href="https://en.wikipedia.org/w/index.php?title=Greece&action=history" target="_blank">
+				<li>View history</li>
+			</a>
+			<input type="text" placeholder="Search Wikipedia">
+    </ul>
+	</header>
+	<div id="side-nav-bar">
+		<nav id="first-nav">
+
+			<ul>
+				<a href="https://en.wikipedia.org/wiki/Main_Page" target="_blank">
+					<li>Main Page</li>
+				</a>
+				<a href="https://en.wikipedia.org/wiki/Talk:Greece" target="_blank">
+					<li>Contents</li>
+				</a>
+				<a href="https://en.wikipedia.org/wiki/Greece#:~:text=Contents-,Current%20events,-Random%20article"
+					target="_blank">
+					<li>Current events</li>
+				</a>
+				<a href="https://en.wikipedia.org/wiki/Greece#:~:text=Contents-,Current%20events,-Random%20article"
+					target="_blank">
+					<li>Current events</li>
+				</a>
+				<a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">
+					<li>Random article</li>
+				</a>
+				<a href="https://en.wikipedia.org/wiki/Wikipedia:About" target="_blank">
+					<li>About Wikipedia</li>
+				</a>
+				<a href="hhttps://en.wikipedia.org/wiki/Wikipedia:Contact_us" target="_blank">
+					<li>Contact us</li>
+				</a>
+				<a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en"
+					target="_blank">
+					<li>Donate</li>
+				</a>
+			</ul>
+		</nav>
+		<br>
+		<nav>
+			<label>Contribute</label>
+			<div class="vl"></div>
+			<ul>
+				<a href="https://en.wikipedia.org/wiki/Main_Page" target="_blank">
+					<li>Help</li>
+				</a>
+				<a href="https://en.wikipedia.org/wiki/Talk:Greece" target="_blank">
+					<li>Learn to edit</li>
+				</a>
+				<a href="https://en.wikipedia.org/wiki/Greece#:~:text=Contents-,Current%20events,-Random%20article"
+					target="_blank">
+					<li>Current events</li>
+				</a>
+			</ul>
+
+		</nav>
+	</div>
+	<article>
+		<div class="content-box" id="main-content">
+			<div>
+				<h1 style="font-family: monospace;">Greece</h1>
+				<div class="vl"></div>
+				<p>From Wikipedia, the free encyclopedia</p>
+				<p>Greece (Greek: Ελλάδα, romanized: Elláda, [eˈlaða]), officially the Hellenic Republic,[a] is a
+					country in
+					Southeast
+					Europe. It is situated on the southern tip of the Balkans, and is located at the crossroads of
+					Europe, Asia,
+					and
+					Africa. Greece shares land borders with Albania to the northwest, North Macedonia and Bulgaria to
+					the north,
+					and
+					Turkey to the northeast. The Aegean Sea lies to the east of the mainland, the Ionian Sea to the
+					west, and
+					the Sea of
+					Crete and the Mediterranean Sea to the south. Greece has the longest coastline on the Mediterranean
+					Basin,
+					featuring
+					thousands of islands. The country consists of nine traditional geographic regions, and has a
+					population of
+					approximately 10.7 million. Athens is the nation's capital and largest city, followed by
+					Thessaloniki.<br>
+
+		Greece is considered the cradle of Western civilization, being the birthplace of democracy, Western philosophy, Western literature, historiography, political science, major scientific and mathematical principles, theatre and the Olympic Games. From the eighth century BC, the Greeks were organised into various independent city-states, known as poleis (singular polis), which spanned the Mediterranean and the Black Sea. Philip II of Macedon united most of present-day Greece in the fourth century BC, with his son Alexander the Great rapidly conquering much of the ancient world, from the eastern Mediterranean to India. The subsequent Hellenistic period saw the height of Greek culture and influence in antiquity. Greece was annexed by Rome in the second century BC, becoming an integral part of the Roman Empire and its continuation, the Byzantine Empire, which was culturally and linguistically predominantly Greek. The Greek Orthodox Church, which emerged in the first century AD, helped shape modern Greek identity and transmitted Greek traditions to the wider Orthodox world. After falling under Ottoman rule in the mid-15th century, Greece emerged as a modern nation state in 1830 following a war of independence. The country's rich historical legacy is reflected in part by its 18 UNESCO World Heritage Sites.<br>
+
+		Greece is a unitary parliamentary republic, and a developed country, with an advanced high-income economy, and a high quality of life, ranking 32nd in the Human Development Index. Its economy is the largest in the Balkans, where it is an important regional investor. A founding member of the United Nations, Greece was the tenth member to join the European Communities (precursor to the European Union) and has been part of the Eurozone since 2001. It is also a member of numerous other international institutions, including the Council of Europe, NATO, the OECD, the WTO, and the OSCE. Greece's unique cultural heritage, large tourism industry, prominent shipping sector and geostrategic importance classify it as a middle power.</p>
+			<section id="nav-section"><b>contents</b>
+				<ol>
+
+					<li><a href="">Name</a></li>
+					<li><a href="">History</a>
+						<ol>
+							<li><a href="">aaa</a></li>
+							<li><a href="">bbb</a></li>
+							<li><a href="">Hellenistic and Roman periods (323 BC – 4th century AD)</a></li>
+							<li><a href="">Medieval period (4th – 15th century)</a></li>
+							<li><a href="">Venetian possessions and Ottoman rule (15th century – 1821)</a></li>
+							<li><a href="">Modern period</a>
+								<ol>
+									<li><a href="">Greek War of Independence (1821–1832)</a></li>
+									<li><a href="">Expansion, disaster, and reconstruction</a></li>
+									<li><a href="">Dictatorship, World War II, and reconstruction</a></li>
+									<li><a href="">Military regime (1967–74)</a></li>
+									<li><a href="">Third Hellenic Republic</a></li>
+								</ol>
+							<li><a href="">Recent history</a></li>
+					</li>
+				</ol>
+				</li>
+				</ol>
+			</section>
+      </div>
+			<!--  the bar on the side -->
+			<section id="side-section">
+				<h2>Hellenic Republic</h2>
+				<p>Ελληνική Δημοκρατία (Greek)
+					Ellinikí Dimokratía</p>
+				<div class="vl"></div>
+				<table>
+					<tr>
+						<td> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Greece.svg/125px-Flag_of_Greece.svg.png"
+    width="200px" ></td>
+						<td> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Coat_of_arms_of_Greece.svg/85px-Coat_of_arms_of_Greece.svg.png"
+    width="150px"></td>
+
+					</tr>
+					<tr>
+						<td>Flag</td>
+						<td>Coat of arms</td>
+
+					</tr>
+				</table>
+				<div class="vl"></div>
+				<p><strong>Motto:</strong> Ελευθερία ή Θάνατος<br>
+Elefthería í Thánatos<br>
+(English: "Freedom or Death")</p>
+				<div class="vl"></div>
+				<p><strong>Anthem:</strong> Ύμνος εις την Ελευθερίαν<br>
+Ímnos is tin Eleftherían<br>
+(English: "Hymn to Liberty")</p>
+				<div id="anthem-div"></div>
+				<br>
+				<div class="vl"></div>
+				<table>table
+				</table>
+			</section>
+			
+		</div>
+		
+		<!-- end of the main section -->
+	</article>
+
+</body>
+
+</html>
