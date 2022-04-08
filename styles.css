@@ -75,12 +75,14 @@ margin: 0;
 }
 .right{
     float:right;
+    clear:right;
 }
 .left{
     float:left;
+    clear:left;
 }
 .magnify{
-    background-image:url('zoom-in.svg');
+    background-image:url('zoom.svg');
     float:right;
     width:16px;
     height:16px;
@@ -125,4 +127,19 @@ display: inline-block;
 /* display: grid;
 grid-template-columns: auto auto;
 gap: 20px; */
+}
+.table-header{
+    font-size: 1.2em;
+    
+    background:#eaecf0;
+}
+.sort-table{
+    background: #f8f9fa;
+
+    display: block;
+}
+td{
+    margin-left: auto;
+    margin-right: auto;
+    padding:25px 5px;
 }
