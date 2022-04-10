@@ -10,8 +10,8 @@ justify-content: space-between;
 height: 50px;
 align-items:flex-end;
 margin-top: 20px;
-margin-left: 120px;
-
+margin-left: 150px;
+padding-bottom: 0.25em;
 }
 
 header>ul {
@@ -24,20 +24,24 @@ gap: 15px;
 ul {
 list-style: none;
 margin: 0;
+padding-inline-start: 0px;
 }
 
 a {
 text-decoration: none;
 }
-
+.text-topic-div{
+    display:block;
+}
 article {
 background: white;
 float: left;
 margin-left: 140px;
 padding: 15px;
+border-width: 1px;
 border-style: solid;
 border-color: #b8cff1;
-border-radius: 1px;
+
 padding-left: 20px;
 }
 
@@ -93,10 +97,11 @@ text-align: center;
 
 
 #side-nav-bar {
+
 position: absolute;
 height: 1000px;
 margin-top: 120px;
-margin-left: 0;
+padding-left:15px;
 }
 
 nav {
@@ -107,7 +112,7 @@ line-height: 1.4;
 
 .vl {
 width: 100%;
-height: 2px;
+height: 1px;
 background: #999999;
 }
 
@@ -115,7 +120,7 @@ section {
 background: #f9f9f9;
 padding: 10px;
 border-style: solid;
-border-radius: 0.2px;
+border-width: 1px;
 border-color: #ababab;
 font-size: 0.82em;
 display: inline-block;
@@ -143,3 +148,6 @@ td{
     margin-right: auto;
     padding:25px 5px;
 }
+ol { counter-reset: item }
+ol>li { display: block }
+ol>li:before { content: counters(item, ".") " "; counter-increment: item }
