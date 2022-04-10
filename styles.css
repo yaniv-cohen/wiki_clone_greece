@@ -10,17 +10,26 @@ justify-content: space-between;
 height: 50px;
 align-items:flex-end;
 margin-top: 20px;
-margin-left: 150px;
-padding-bottom: 0.25em;
+margin-left: 140px;
+padding-bottom: 0em;
+border-bottom: 1px #a7d7f9 solid;
+
 }
 
 header>ul {
 list-style: none;
+height: 25px;
 display: flex;
 justify-content: space-between;
-gap: 15px;
+
+margin: 0;
+padding:0;
 }
 
+a{
+    color:#0645ad;
+    font-size:14px;
+}
 ul {
 list-style: none;
 margin: 0;
@@ -30,17 +39,49 @@ padding-inline-start: 0px;
 a {
 text-decoration: none;
 }
+.top-right{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    float: right;
+    right:0;
+    top:10px;
+    gap:10px;
+    font-family: sans-serif;
+    font-size: 0.75em;
+    color: #54595d;
+
+}
+.header-item{
+    background-image: linear-gradient(to top,#77c1f6 0,#e8f2f8 1px,#ffffff 100%);
+    padding:0 10px;
+}
+.chosen-header-item{
+    background:white;
+    border-left: 1px #A7D7F9 solid;
+    border-right: 1px #A7D7F9 solid;
+    outline: 2px white solid;
+}
 .text-topic-div{
     display:block;
+    height: fit-content;
+}
+.text-topic-div>h1{
+    font-family: monospace;
+    font-size: 1.5em;
+    font-family: 'Linux Libertine','Georgia','Times',serif;
+    font-weight: normal;
+}
+.text-topic-div>h2{
+    font-size: 1.2em;
+    font-weight: bold;
 }
 article {
 background: white;
 float: left;
 margin-left: 140px;
 padding: 15px;
-border-width: 1px;
-border-style: solid;
-border-color: #b8cff1;
+border-left:1px #a7d7f9 solid;
 
 padding-left: 20px;
 }
@@ -55,11 +96,22 @@ margin:20px;
 float: right;
 margin-top: 130px;
 text-align: center;
-height: 900px;
 margin-left:20px;
+margin-bottom: 20px;
 }
-
-#anthem-div {
+.side-section-div{
+display: flex;
+flex-direction: row;
+text-align: left;
+padding-top:5px;
+}
+.side-section-left{
+width:50%;
+}
+.side-section-right{
+    width:50%;
+}
+#anthem-div{
 
 
 
@@ -134,14 +186,22 @@ grid-template-columns: auto auto;
 gap: 20px; */
 }
 .table-header{
-    font-size: 1.2em;
-    
+    font-size: 100%;
+    font-family: sans-serif;
     background:#eaecf0;
 }
 .sort-table{
-    background: #f8f9fa;
+     display: inline; 
 
-    display: block;
+}
+.sort-table, .table-header, .sort-table tr td{
+        border: 1px solid #a2a9b1;
+    border-collapse: collapse;
+}
+
+.sort-table>tr>*{
+
+    background: #f8f9fa;
 }
 td{
     margin-left: auto;
@@ -151,3 +211,13 @@ td{
 ol { counter-reset: item }
 ol>li { display: block }
 ol>li:before { content: counters(item, ".") " "; counter-increment: item }
+footer{
+    margin-top:70px;
+    padding-left:170px;
+    font-size: 0.75em;
+    line-height: 1.4;
+}
+footer>ul{
+    display:flex;
+    gap:20px;
+}

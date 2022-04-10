@@ -9,28 +9,46 @@
 </head>
 
 <body>
+	<ul class="top-right">
+		Not logged in
+		<a href="https://en.wikipedia.org/wiki/Talk:Greece" target="_blank">
+			Talk
+		</a>
+		<a href="https://en.wikipedia.org/w/index.php?title=Greece&action=history" target="_blank">
+			Contributions
+		</a>
+		<a href="https://en.wikipedia.org/w/index.php?title=Greece&action=history" target="_blank">
+			Create account
+		</a>
+		<a href="https://en.wikipedia.org/w/index.php?title=Greece&action=history" target="_blank">
+			Log in
+		</a>
+
+	</ul>
 	<header>
 
 		<ul id="header-left-bar">
-			<a href="https://en.wikipedia.org/wiki/Greece" target="_blank">
+			<a class="header-item chosen-header-item" href="https://en.wikipedia.org/wiki/Greece" target="_blank">
 				<li>Article</li>
 			</a>
-			<a href="https://en.wikipedia.org/wiki/Talk:Greece" target="_blank">
+			<a class="header-item" href="https://en.wikipedia.org/wiki/Talk:Greece" target="_blank">
 				<li>Talk</li>
 			</a>
 		</ul>
 		<ul id="header-right-bar">
-			<a href="https://en.wikipedia.org/wiki/Greece" target="_blank">
+			<a class="header-item chosen-header-item" href="https://en.wikipedia.org/wiki/Greece" target="_blank">
 				<li>Read</li>
 			</a>
-			<a href="https://en.wikipedia.org/wiki/Talk:Greece" target="_blank">
+			<a class="header-item" href="https://en.wikipedia.org/wiki/Talk:Greece" target="_blank">
 				<li>View source</li>
 			</a>
-			<a href="https://en.wikipedia.org/w/index.php?title=Greece&action=history" target="_blank">
+			<a class="header-item" href="https://en.wikipedia.org/w/index.php?title=Greece&action=history"
+				target="_blank">
 				<li>View history</li>
 			</a>
 			<input type="text" placeholder="Search Wikipedia">
 		</ul>
+
 	</header>
 	<div id="side-nav-bar">
 		<nav id="first-nav">
@@ -240,8 +258,66 @@
 				<br>
 				<div class="vl"></div>
 				<div class="">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/EU-Greece.svg/375px-EU-Greece.svg.png"
+						alt="Greece on the woeld map">
+					<br>
+					<input type="radio" id="html" name="fav_language" value="HTML">
+					<label for="html">Show map of Europe</label><br>
+					<input type="radio" id="css" name="fav_language" value="CSS">
+					<label for="css">Show globe</label><br>
+					<input type="radio" id="javascript" name="fav_language" value="JavaScript">
+					<label for="javascript">Show all</label>
+					<p>Location of Greece (dark green) <br>
+						<span style="float:left;">– in Europe (light green & dark grey) <br>
+							– in the European Union (light green)</span>
+					</p>
+				</div>
+				<br><br>
+				<div class="vl"></div>
+				<div>
+					<div class="side-section-div">
+						<div class="side-section-left">
+							<a href=""> Religion(2017)</a>
+						</div>
+						<div class="side-section-right">
+							93% Christianity <br>
+							—90% Greek Orthodoxy (official)a <br>
+							—3% Other Christian <br>
+							4% No religion <br>
+							2% Islam <br>
+							1% Others[1] <br>
+						</div>
 
-
+					</div>
+					<br>
+					<div class="vl"></div>
+					<div class="side-section-div">
+						<div class="side-section-left">
+							<a href="">
+								<b>Government</b> <br>
+								• President <br>
+								• Prime Minister <br>
+								• Parliament Speaker
+							</a>
+						</div>
+						<div class="side-section-right">
+							Unitary parliamentary republic <br>
+							Katerina Sakellaropoulou <br>
+							Kyriakos Mitsotakis <br>
+							Konstantinos Tasoulas
+						</div>
+					</div>
+					<br>
+					<div class="vl"></div>
+					<div class="side-section-div">
+						<div class="side-section-left">
+							<a href=""> Demonym(s)</a>
+						</div>
+						<div class="side-section-right">
+							Greek
+						</div>
+					</div>
+					<br>
 				</div>
 			</section>
 			<div>
@@ -346,7 +422,7 @@
 
 				<!-- history -->
 				<div class="text-topic-div">
-					<h1 style="font-family: monospace;">History</h1>
+					<h1>History</h1>
 					<div class="vl"></div>
 
 					<p class="subtitle">Main article: <a href="https://en.wikipedia.org/wiki/Name_of_Greece">History of
@@ -534,13 +610,27 @@
 							classical Greece.
 						</label>
 					</div>
+					<p>
+						Following the assassination of Phillip II, his son Alexander III ("The Great") assumed the
+						leadership of the League of Corinth and launched an invasion of the Persian Empire with the
+						combined forces of the League in 334 BC. Undefeated in battle, Alexander had conquered the
+						Persian Empire in its entirety by 330 BC. By the time of his death in 323 BC, he had created one
+						of the largest empires in history, stretching from Greece to India. Upon his death, his empire
+						split into several kingdoms, the most famous of which were the Seleucid Empire, Ptolemaic Egypt,
+						the Greco-Bactrian Kingdom, and the Indo-Greek Kingdom. Many Greeks migrated to Alexandria,
+						Antioch, Seleucia, and the many other new Hellenistic cities in Asia and Africa.[44] Although
+						the political unity of Alexander's empire could not be maintained, it resulted in the
+						Hellenistic civilization and spread the Greek language and Greek culture in the territories
+						conquered by Alexander.[45] Greek science, technology, and mathematics are generally considered
+						to have reached their peak during the Hellenistic period.[46]
+					</p>
 				</div>
 				<!-- end of history-->
 
 				<!-- politics -->
 
 				<div class="text-topic-div">
-					<h1 style="font-family: monospace;">Politics</h1>
+					<h1>Politics</h1>
 					<div class="vl"></div>
 
 					<p class="subtitle">Main article: <a href="https://en.wikipedia.org/wiki/Name_of_Greece">Politics of
@@ -612,6 +702,39 @@
 						regions for administrative purposes on a regional basis. There is also one autonomous area,
 						Mount Athos (Greek: Agio Oros, "Holy Mountain"), which borders the region of Central Macedonia.
 					</p>
+					<p>Since the restoration of democracy, the Greek party system was dominated by the
+						liberal-conservative New Democracy (ND) and the social-democratic Panhellenic Socialist Movement
+						(PASOK).[d] Other parties represented in the Hellenic Parliament include the Coalition of the
+						Radical Left (SYRIZA), the Communist Party of Greece (KKE), Greek Solution and MeRA25.
+
+						PASOK and New Democracy largely alternated in power until the outbreak of the government-debt
+						crisis in 2009. From that time, the two major parties, New Democracy and PASOK, experienced a
+						sharp decline in popularity.[157][158][159][160][161] In November 2011, the two major parties
+						joined the smaller Popular Orthodox Rally in a grand coalition, pledging their parliamentary
+						support for a government of national unity headed by former European Central Bank vice-president
+						Lucas Papademos.[162] Panos Kammenos voted against this government and he split off from ND
+						forming the right-wing populist Independent Greeks.
+
+						The coalition government led the country to the parliamentary elections of May 2012. The power
+						of the traditional Greek political parties, PASOK and New Democracy, declined from 43% to 13%
+						and from 33% to 18%, respectively. The left-wing party of SYRIZA became the second major party,
+						with an increase from 4% to 16%. No party could form a sustainable government, which led to the
+						parliamentary elections of June 2012. The result of the second elections was the formation of a
+						coalition government composed of New Democracy (29%), PASOK (12%) and Democratic Left (6%)
+						parties.
+
+						SYRIZA has since overtaken PASOK as the main party of the centre-left .[163] Alexis Tsipras led
+						SYRIZA to victory in the general election held on 25 January 2015, falling short of an outright
+						majority in Parliament by just two seats.[164] The following morning, Tsipras reached an
+						agreement with Independent Greeks party to form a coalition, and he was sworn in as Prime
+						Minister of Greece.[165] Tsipras called snap elections in August 2015, resigning from his post,
+						which led to a month-long caretaker administration headed by judge Vassiliki
+						Thanou-Christophilou, Greece's first female prime minister.[166] In the September 2015 general
+						election, Alexis Tsipras led SYRIZA to another victory, winning 145 out of 300 seats[167] and
+						re-forming the coalition with the Independent Greeks.[168] However, he was defeated in the July
+						2019 general election by Kyriakos Mitsotakis who leads New Democracy.[169] On 7 July 2019,
+						Kyriakos Mitsotakis was sworn in as the new Prime Minister of Greece. He formed a centre-right
+						government after the landslide victory of his New Democracy party.[170]</p>
 					<!-- map2 -->
 					<table class="sort-table" id="administrative-table">
 						<tr>
@@ -707,14 +830,30 @@
 							<td>1,481.05</td>
 							<td>199,231</td>
 							<td>@2.412</td> -->
-					</table>>
+					</table>
 				</div>
 
 			</div>
 
 			<!-- end of the main section -->
 	</article>
-
+	<footer>
+		<br>
+		<p>This page was last edited on 10 April 2022, at 09:19 (UTC).</p>
+		<p>Text is available under the Creative Commons Attribution-ShareAlike License 3.0; additional terms may apply.
+			By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark
+			of the Wikimedia Foundation, Inc., a non-profit organization.</p>
+		<ul>
+			<li><a href="">Privacy policy</a></li>
+			<li><a href="">About Wikipedia</a></li>
+			<li><a href="">Disclaimers</a></li>
+			<li><a href="">Contact Wikipedia</a></li>
+			<li><a href="">Mobile view</a></li>
+			<li><a href="">Developers</a></li>
+			<li><a href="">Statistics</a></li>
+			<li><a href="">Cookie statement</a></li>
+		</ul>
+	</footer>
 </body>
 
 </html>
