@@ -3,6 +3,7 @@ background-image: url("https://en.wikipedia.org/static/images/project-logos/enwi
 background-repeat: no-repeat;
 background-color: #f9f9f9;
     font-size:0.875em;
+    line-height:1.6;
 }
 
 header {
