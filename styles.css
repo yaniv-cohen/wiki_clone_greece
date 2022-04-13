@@ -80,7 +80,7 @@ text-decoration: none;
 article {
 background: white;
 float: left;
-margin-left: 140px;
+margin-left: 160px;
 padding: 15px;
 border-left:1px #a7d7f9 solid;
 
@@ -120,8 +120,8 @@ width:50%;
 
 #main-content {
 margin: 0;
-        font-size:0.875em;
-    line-height:1.6;
+font-size:0.875em;
+ line-height:1.6;
 }
 .inline-info-div{
     display: inline;
