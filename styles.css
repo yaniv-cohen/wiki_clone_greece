@@ -2,8 +2,7 @@ body {
 background-image: url("https://en.wikipedia.org/static/images/project-logos/enwiki.png");
 background-repeat: no-repeat;
 background-color: #f9f9f9;
-    font-size:0.875em;
-    line-height:1.6;
+
 }
 
 header {
@@ -121,6 +120,8 @@ width:50%;
 
 #main-content {
 margin: 0;
+        font-size:0.875em;
+    line-height:1.6;
 }
 .inline-info-div{
     display: inline;
